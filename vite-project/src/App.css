@@ -1,0 +1,62 @@
+
+
+.container {
+  display: flex;
+
+}
+
+.column {
+  display: flex;
+  margin: 0 10px;
+  flex-direction: row;
+}
+
+.imagem {
+  
+  width: 90px;
+  height: 90px;
+  border: solid black 2px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo img {
+  width: 100px; 
+  height: auto;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: start;
+}
+.evento{
+max-width: 800px; /* Define a largura máxima para 800 pixels */
+  margin: 0 auto; /* Centraliza a container na página */
+  padding: 0 20px; /* Adiciona um espaçamento interno à container */
+ 
+}
+.evento1{
+  float: right;
+ margin-left: 200px;
+ opacity: 0;
+}
